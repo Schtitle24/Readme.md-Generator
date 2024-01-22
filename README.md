@@ -21,7 +21,7 @@
   - The program will begin to give you prompts, answer these prompts with the information you wish to populate in the given sections.
   - Once you reach the end of the prompts you should get a message saying that your README file has been created.
   - Check your file location for your newly created, already formatted, ready to rip README
-[walkthrough generator.webm](https://github.com/Schtitle24/Readme.md-Generator/assets/153530625/1158125b-c927-4951-8622-43f312612f7e)
+    <br>[Video Walkthrough](https://github.com/Schtitle24/Readme.md-Generator/assets/153530625/1158125b-c927-4951-8622-43f312612f7e)
 
 ## <a name="Contributions"></a>Contributions
   ### Schtitle24
