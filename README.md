@@ -2,6 +2,8 @@
 
 ## Table of Contents
 - [Description](#Description)
+- [UserStory](#UserStory)
+- [AcceptanceCriteria](#AcceptanceCriteria)
 - [Instructions](#Instructions)
 - [Usage](#Usage)
 - [Contributions](#Contributions)
@@ -10,29 +12,49 @@
 
 
 ## <a name="Description"></a>Description
-  ### This project is very simple yet useful, please take note that there will be updates to this application. With this application you can easily generate a preformatted readme file for your own applicatoins and websites! 
+  ### This application is an excersise in Object-Relational Mapping using an E-Commerce Back End Starter Code. I have acheived functionality by configuring a working Express.js API to use Sequelize to interact with a MySQL database.  
 
+## <a name"UserStory"></a>User Story
+
+```md
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
+```
+
+## <a name"AcceptanceCriteria"></a>Acceptance Criteria
+
+```md
+GIVEN a functional Express.js API
+WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
+THEN I am able to connect to a database using Sequelize
+WHEN I enter schema and seed commands
+THEN a development database is created and is seeded with test data
+WHEN I enter the command to invoke the application
+THEN my server is started and the Sequelize models are synced to the MySQL database
+WHEN I open API GET routes in Insomnia for categories, products, or tags
+THEN the data for each of these routes is displayed in a formatted JSON
+WHEN I test API POST, PUT, and DELETE routes in Insomnia
+THEN I am able to successfully create, update, and delete data in my database
+```
 
 ## <a name="Instructions"></a>Instructions
-  ### Make sure to install the [Node.JS](https://nodejs.org/en/download/current) package. You will need the [Inquirier NPM](https://www.npmjs.com/package/inquirer). Javascript was also used to compile this code, so an application such as VScode goes along nicely. 
-
-## <a name="Usage"></a>Usage
-  ### You can follow these steps or check out the video below! 
-  - Using your terminal, navigate to the folder location of your choosing.
-  - Once in the file location you will then execute the program by running the command `node index`.
-  - The program will begin to give you prompts, answer these prompts with the information you wish to populate in the given sections.
-  - Once you reach the end of the prompts you should get a message saying that your README file has been created.
-  - Check your file location for your newly created, already formatted, ready to rip README
-  - [Video Walkthrough](https://github.com/Schtitle24/Readme.md-Generator/assets/153530625/1158125b-c927-4951-8622-43f312612f7e)
+  ### Follow the steps below to run this locally on your own machine!  
+  - Glone this repository to your machine.
+  - Open the files in your VScode or similar application
+  - Make sure to add a .env file for your MySQL connection
+  - run `npm i` in your terminal
+  - connect to your MySQL
+  - Source the schema
+  - return to your terminal and run `npm run seed`
+  - start the server with `node server`
+  - Open Insomnia or a similar application and you can now interact with your database. 
+  - [Video Walkthrough](https://drive.google.com/file/d/1bYTCgjSoM6GP56KXofRI5VgeuMHBGYXZ/view?usp=sharing)
 
 ## <a name="Contributions"></a>Contributions
   ### Schtitle24
 
-## <a name="Tests"></a>Tests
-  ### Best Practices for testing are:
-  - Navigate to a temporary file, easy to call it delthis!
-  - RUN THE APPLICATION!
-  - It is fairly straight forward so this should about do it for your test!   
+
 
 ## <a name="Questions"></a>Questions
 GitHub: [Schtitle24](https://github.com/Schtitle24)
