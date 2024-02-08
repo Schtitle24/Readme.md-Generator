@@ -14,7 +14,7 @@
 ## <a name="Description"></a>Description
   ### This application is an excersise in Object-Relational Mapping using an E-Commerce Back End Starter Code. I have acheived functionality by configuring a working Express.js API to use Sequelize to interact with a MySQL database.  
 
-## <a name"UserStory"></a>User Story
+## <a name="UserStory"></a>User Story
 
 ```md
 AS A manager at an internet retail company
@@ -22,7 +22,7 @@ I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 ```
 
-## <a name"AcceptanceCriteria"></a>Acceptance Criteria
+## <a name="AcceptanceCriteria"></a>Acceptance Criteria
 
 ```md
 GIVEN a functional Express.js API
